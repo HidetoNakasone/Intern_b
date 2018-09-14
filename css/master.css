@@ -213,6 +213,11 @@ main {
   color: white;
 }
 
+#m_OurTeam .con_right {
+  margin-top: -300px;
+  margin-left: 50%;
+}
+
 #m_OurTeam .content img {
   margin-top: 50px;
   height: 180px;
@@ -225,7 +230,10 @@ main {
   margin-top: -190px;
 }
 
-#m_OurTeam .con_right {
-  margin-top: -300px;
-  margin-left: 50%;
+#m_OurTeam .content .status h2 {
+  margin-top: -10px;
+}
+
+#m_OurTeam .content .status p {
+  padding-left: 100px;
 }
