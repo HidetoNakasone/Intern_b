@@ -208,6 +208,7 @@ main {
 }
 
 #m_OurTeam .content {
+  margin-left: 60px;
   height: 300px;
   width: 44%;
   color: white;
@@ -215,25 +216,49 @@ main {
 
 #m_OurTeam .con_right {
   margin-top: -300px;
-  margin-left: 50%;
+  margin-left: 53%;
 }
 
 #m_OurTeam .content img {
   margin-top: 50px;
   height: 180px;
   width: 180px;
+  border: 2px solid white;
   border-radius: 50%;
 }
 
 #m_OurTeam .content .status {
   margin-left: 220px;
   margin-top: -190px;
+  text-align: right;
+}
+
+#m_OurTeam .content .status h1 {
+  margin-right: 80px;
+  border-bottom: 2px solid white;
 }
 
 #m_OurTeam .content .status h2 {
-  margin-top: -10px;
+  margin-top: 0px;
+  margin-right: 100px;
+  font-weight: lighter;
 }
 
 #m_OurTeam .content .status p {
   padding-left: 100px;
+  margin-right: 100px;
+  margin-top: -10px;
+}
+
+
+
+
+#m_Project > h1 {
+  margin-bottom: 42px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 5em;
+  color: white;
+
+  border-left: 6px solid white;
+  padding-left: 20px;
 }
