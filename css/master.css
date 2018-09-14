@@ -198,7 +198,7 @@ main {
 }
 
 #m_OurTeam > h1 {
-  margin-bottom: 110px;
+  margin-bottom: 42px;
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 5em;
   color: white;
@@ -209,17 +209,23 @@ main {
 
 #m_OurTeam .content {
   height: 300px;
-  width: 40%;
-  background: rgba(64, 88, 96, 0.4);
+  width: 44%;
   color: white;
 }
 
 #m_OurTeam .content img {
-  height: 200px;
-  width: 200px;
-  border-radius: 100px;
+  margin-top: 50px;
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
 }
 
-#m_OurTeam h1 {
-  font-size: 1.5em;
+#m_OurTeam .content .status {
+  margin-left: 220px;
+  margin-top: -190px;
+}
+
+#m_OurTeam .con_right {
+  margin-top: -300px;
+  margin-left: 50%;
 }
